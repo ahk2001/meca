@@ -2524,12 +2524,77 @@
     }
 
     /* ==========================================================================
-       14. ANIMACIONES ESCALONADAS POR SCROLL
+       14. ANIMACIONES LENTAS Y ESCALONADAS (HOME & SCROLL)
        ========================================================================== */
+    @keyframes mecaFadeInSlow {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes mecaRiseInSlow {
+      0% {
+        opacity: 0;
+        transform: translateY(38px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes mecaDropInSlow {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes mecaFloatInSlow {
+      0% {
+        opacity: 0;
+        transform: translateY(28px) scale(0.92);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Coreografía escalonada de entrada en la Hero y Top Nav */
+    .hero-bg-stage {
+      animation: mecaFadeInSlow 1.6s var(--ease-editorial) 0.05s both;
+    }
+
+    .editorial-nav .editorial-brand-link {
+      animation: mecaDropInSlow 1.15s var(--ease-editorial) 0.3s both;
+    }
+
+    .editorial-nav .editorial-menu-btn {
+      animation: mecaDropInSlow 1.15s var(--ease-editorial) 0.6s both;
+    }
+
+    .hero-editorial-title {
+      animation: mecaRiseInSlow 1.4s var(--ease-editorial) 0.9s both;
+    }
+
+    .hero-editorial-title em {
+      display: inline-block;
+      animation: mecaRiseInSlow 1.3s var(--ease-editorial) 1.25s both;
+    }
+
+    .floating-brand-wa {
+      animation: mecaFloatInSlow 1.2s var(--ease-editorial) 1.7s both;
+    }
+
+    /* Aparición lenta y escalonada por scroll en el resto de la Home */
     .reveal-on-scroll {
       opacity: 0;
-      transform: translateY(28px);
-      transition: opacity 0.8s var(--ease-editorial), transform 0.8s var(--ease-editorial);
+      transform: translateY(36px);
+      transition: opacity 1.15s var(--ease-editorial), transform 1.15s var(--ease-editorial);
     }
 
     .reveal-on-scroll.is-revealed {
@@ -2537,10 +2602,29 @@
       transform: translateY(0);
     }
 
-    .delay-1 { transition-delay: 0.08s; }
-    .delay-2 { transition-delay: 0.16s; }
-    .delay-3 { transition-delay: 0.24s; }
-    .delay-4 { transition-delay: 0.32s; }
+    .delay-1 { transition-delay: 0.15s; }
+    .delay-2 { transition-delay: 0.38s; }
+    .delay-3 { transition-delay: 0.61s; }
+    .delay-4 { transition-delay: 0.84s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero-bg-stage,
+      .editorial-nav .editorial-brand-link,
+      .editorial-nav .editorial-menu-btn,
+      .hero-editorial-title,
+      .hero-editorial-title em,
+      .floating-brand-wa,
+      .hero-img-el {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      .reveal-on-scroll {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+    }
   
     /* Hero con Imagen Desktop & Mobile + Contraste de Botones Meca */
     .hero-img-el {
