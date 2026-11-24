@@ -1,0 +1,15 @@
+# Sistema / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vercel
+.vercel
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Rascunhos internos
+docs/dados.txt
+dados.txt
