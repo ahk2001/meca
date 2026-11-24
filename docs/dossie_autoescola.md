@@ -1,4 +1,4 @@
-# 📂 DOSSIÊ ESTRATÉGICO: AUTOESCUELA MECA (AYORA / ALMANSA)
+﻿# 📂 DOSSIÊ ESTRATÉGICO: AUTOESCUELA MECA (AYORA / ALMANSA)
 
 > **Documento-fonte oficial** para desenvolvimento do novo site de alta conversão da **Autoescuela Meca**.  
 > Todos os dados factuais foram apurados a partir de `dados.txt`, análise visual dos arquivos em `assets/`, verificação HTTP de `autoescuelameca.com` e pesquisa em diretórios públicos e registros DGT. Itens não disponíveis publicamente estão sinalizados como `[A CONFIRMAR COM O CLIENTE]`.
@@ -14,7 +14,7 @@
 | **Slogan Principal (ES)** | *"Tu carnet a la primera en Ayora y Almansa: formación vial, flota 100% eléctrica y especialistas en permisos profesionales."* |
 | **Slogan Secundário (ES)** | *"Más que una autoescuela: tu centro integral de conducción, CAP y mercancías peligrosas."* |
 | **Telefone Fixo** | `+34 961 89 01 46` *(confirmado em `dados.txt` e diretórios)* |
-| **WhatsApp / Celular** | `+34 651 93 31 49` *(encontrado em diretórios locais — `[A CONFIRMAR COM O CLIENTE]` se este é o número principal de atendimento WhatsApp)* |
+| **WhatsApp / Celular** | `+34 961 89 01 46` *(encontrado em diretórios locais — `[A CONFIRMAR COM O CLIENTE]` se este é o número principal de atendimento WhatsApp)* |
 | **E-mail Oficial** | `[A CONFIRMAR COM O CLIENTE]` |
 | **Site Atual** | `http://autoescuelameca.com/` *(atualmente responde HTTP 200 OK com conteúdo vazio / 0 bytes — site fora do ar ou em manutenção)* |
 | **Instagram** | `https://www.instagram.com/autoescuelameca/` *(informado em `dados.txt`)* |
@@ -128,23 +128,23 @@
 
 ## 7. 📲 ARQUITETURA DE CONVERSÃO & LINKS DE WHATSAPP
 
-> **Atenção:** Os links abaixo utilizam o número `+34 651 93 31 49` identificado em diretórios públicos da Autoescuela Meca. Confirmar com o cliente se este é o número oficial de WhatsApp antes do deploy (caso contrário, substituir pelo número indicado).
+> **Atenção:** Os links abaixo utilizam o número `+34 961 89 01 46` identificado em diretórios públicos da Autoescuela Meca. Confirmar com o cliente se este é o número oficial de WhatsApp antes do deploy (caso contrário, substituir pelo número indicado).
 
 1. **Matrícula Geral — Permiso B (Coche Manual / 100% Eléctrico):**
    - **Texto (ES):** `¡Hola! Me gustaría recibir información sobre precios, horarios y matrícula para el Permiso B (coche manual o eléctrico) en Autoescuela Meca.`
-   - **Link:** `https://wa.me/34651933149?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20para%20el%20Permiso%20B%20(coche%20manual%20o%20el%C3%A9ctrico)%20en%20Autoescuela%20Meca.`
+   - **Link:** `https://wa.me/34961890146?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20para%20el%20Permiso%20B%20(coche%20manual%20o%20el%C3%A9ctrico)%20en%20Autoescuela%20Meca.`
 
 2. **Curso de Recuperación de Puntos DGT (12h / 24h):**
    - **Texto (ES):** `¡Hola! Quiero consultar las próximas fechas y plazas disponibles para el curso de Recuperación de Puntos DGT (12h / 24h).`
-   - **Link:** `https://wa.me/34651933149?text=%C2%A1Hola!%20Quiero%20consultar%20las%20pr%C3%B3ximas%20fechas%20y%20plazas%20disponibles%20para%20el%20curso%20de%20Recuperaci%C3%B3n%20de%20Puntos%20DGT%20(12h%20%2F%2024h).`
+   - **Link:** `https://wa.me/34961890146?text=%C2%A1Hola!%20Quiero%20consultar%20las%20pr%C3%B3ximas%20fechas%20y%20plazas%20disponibles%20para%20el%20curso%20de%20Recuperaci%C3%B3n%20de%20Puntos%20DGT%20(12h%20%2F%2024h).`
 
 3. **Cursos Profissionais (CAP / Camión C / Tráiler C+E / ADR):**
    - **Texto (ES):** `¡Hola! Estoy interesado en los cursos profesionales de Autoescuela Meca (CAP, ADR, Camión C o Tráiler C+E). ¿Me podéis informar de las próximas convocatorias?`
-   - **Link:** `https://wa.me/34651933149?text=%C2%A1Hola!%20Estoy%20interesado%20en%20los%20cursos%20profesionales%20de%20Autoescuela%20Meca%20(CAP%2C%20ADR%2C%20Cami%C3%B3n%20C%20o%20Tr%C3%A1iler%20C%2BE).%20%C2%BFMe%20pod%C3%A9is%20informar%20de%20las%20pr%C3%B3ximas%20convocatorias%3F`
+   - **Link:** `https://wa.me/34961890146?text=%C2%A1Hola!%20Estoy%20interesado%20en%20los%20cursos%20profesionales%20de%20Autoescuela%20Meca%20(CAP%2C%20ADR%2C%20Cami%C3%B3n%20C%20o%20Tr%C3%A1iler%20C%2BE).%20%C2%BFMe%20pod%C3%A9is%20informar%20de%20las%20pr%C3%B3ximas%20convocatorias%3F`
 
 4. **Aulas Práticas Avulsas ou Reciclagem:**
    - **Texto (ES):** `¡Hola! Me gustaría consultar disponibilidad y tarifas para clases prácticas sueltas o de reciclaje de conducción.`
-   - **Link:** `https://wa.me/34651933149?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20consultar%20disponibilidad%20y%20tarifas%20para%20clases%20pr%C3%A1cticas%20sueltas%20o%20de%20reciclaje%20de%20conducci%C3%B3n.`
+   - **Link:** `https://wa.me/34961890146?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20consultar%20disponibilidad%20y%20tarifas%20para%20clases%20pr%C3%A1cticas%20sueltas%20o%20de%20reciclaje%20de%20conducci%C3%B3n.`
 
 ---
 
